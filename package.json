@@ -1,0 +1,25 @@
+{
+  "name": "project-api-ar",
+  "module": "server.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "prisma": "^5.19.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun --hot run server.ts"
+  },
+  "dependencies": {
+    "@graphql-yoga/plugin-jwt": "^3.1.0",
+    "@prisma/client": "^5.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "graphql": "^16.9.0",
+    "graphql-yoga": "^5.7.0"
+  }
+}
